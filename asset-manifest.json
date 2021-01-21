@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/hexagis-react/static/css/main.c77a8bad.chunk.css",
-    "main.js": "/hexagis-react/static/js/main.594bdea8.chunk.js",
-    "main.js.map": "/hexagis-react/static/js/main.594bdea8.chunk.js.map",
-    "runtime-main.js": "/hexagis-react/static/js/runtime-main.6c399b15.js",
-    "runtime-main.js.map": "/hexagis-react/static/js/runtime-main.6c399b15.js.map",
-    "static/js/2.6a3b48f5.chunk.js": "/hexagis-react/static/js/2.6a3b48f5.chunk.js",
-    "static/js/2.6a3b48f5.chunk.js.map": "/hexagis-react/static/js/2.6a3b48f5.chunk.js.map",
-    "static/js/3.c5c2d74d.chunk.js": "/hexagis-react/static/js/3.c5c2d74d.chunk.js",
-    "static/js/3.c5c2d74d.chunk.js.map": "/hexagis-react/static/js/3.c5c2d74d.chunk.js.map",
+    "main.js": "/hexagis-react/static/js/main.f9f70549.chunk.js",
+    "main.js.map": "/hexagis-react/static/js/main.f9f70549.chunk.js.map",
+    "runtime-main.js": "/hexagis-react/static/js/runtime-main.f6e56e58.js",
+    "runtime-main.js.map": "/hexagis-react/static/js/runtime-main.f6e56e58.js.map",
+    "static/css/2.ccefb63f.chunk.css": "/hexagis-react/static/css/2.ccefb63f.chunk.css",
+    "static/js/2.e2789dbd.chunk.js": "/hexagis-react/static/js/2.e2789dbd.chunk.js",
+    "static/js/2.e2789dbd.chunk.js.map": "/hexagis-react/static/js/2.e2789dbd.chunk.js.map",
+    "static/js/3.edbd20e8.chunk.js": "/hexagis-react/static/js/3.edbd20e8.chunk.js",
+    "static/js/3.edbd20e8.chunk.js.map": "/hexagis-react/static/js/3.edbd20e8.chunk.js.map",
     "index.html": "/hexagis-react/index.html",
+    "static/css/2.ccefb63f.chunk.css.map": "/hexagis-react/static/css/2.ccefb63f.chunk.css.map",
     "static/css/main.c77a8bad.chunk.css.map": "/hexagis-react/static/css/main.c77a8bad.chunk.css.map",
-    "static/js/2.6a3b48f5.chunk.js.LICENSE.txt": "/hexagis-react/static/js/2.6a3b48f5.chunk.js.LICENSE.txt"
+    "static/js/2.e2789dbd.chunk.js.LICENSE.txt": "/hexagis-react/static/js/2.e2789dbd.chunk.js.LICENSE.txt",
+    "static/media/leaflet.draw.css": "/hexagis-react/static/media/spritesheet.a4e0eb7a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c399b15.js",
-    "static/js/2.6a3b48f5.chunk.js",
+    "static/js/runtime-main.f6e56e58.js",
+    "static/css/2.ccefb63f.chunk.css",
+    "static/js/2.e2789dbd.chunk.js",
     "static/css/main.c77a8bad.chunk.css",
-    "static/js/main.594bdea8.chunk.js"
+    "static/js/main.f9f70549.chunk.js"
   ]
 }
