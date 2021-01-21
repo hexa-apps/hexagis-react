@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-markercluster";
+import chargerData from "./data/charger.json";
+import "./App.css";
 
 function App() {
+  const filteredChargerData = chargerData.filter(charger => charger.address.country === "United Kingdom")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MapContainer center={[51.0, 19.0]} zoom={4} maxZoom={18}>
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      />
+
+      <MarkerClusterGroup>
+        {filteredChargerData.map((charger) => (
+          <Marker key={charger.id} position={[charger.gps.latitude, charger.gps.longitude]} >
+            <Popup>
+              {charger.name}
+            </Popup>
+          </Marker>
+        ))}
+      </MarkerClusterGroup>
+    </MapContainer>
   );
 }
 
